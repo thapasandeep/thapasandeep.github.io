@@ -1,1 +1,1 @@
-## Sandeep Thapa's Website
+## Sandeep Thapa's Personal Website

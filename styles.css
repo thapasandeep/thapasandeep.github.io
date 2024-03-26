@@ -13,3 +13,8 @@
  td {
     border: 1px solid black;
 }
+
+.blue-button {
+    background-color: blue;
+    color: white;
+}

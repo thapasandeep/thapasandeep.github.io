@@ -1,106 +1,123 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sandeep Thapa</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow"
+
+<head>
+    <title>Sandeep Thapa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     -->
-        <script type="text/javascript" src="myscript.js"></script>  
-    </head>
-    <body>
-        <div>
-            <h1>
-                Make a payment
-            </h1>
-                <label for="creditCardNo">Credit Card No: </label>
+    <script type="text/javascript" src="myscript.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1> Make a payment </h1>
+        <form>
+            <!-- <div class="credit-form-group">
+                <label for="creditCardNo">Credit Card No: </label><br>
                 <input type="text" id="creditCardNo" name="lname"><br><br>
-                <label for="expirationMonth">Expiration Month: </label>
-                <input type="text" id="expirationMonth" name="expirationMonth"><br><br>
-                <label for="expirationYear">Expiration Year: </label>
-                <input type="text" id="expirationYear" name="expirationYear"><br><br>
-                <label for="securityCode">Security Code: </label>
-                <input type="text" id="securityCode" name="securityCode"><br><br>
-                <button> Make a payment </button>
-                <button type="button" class="btn btn-primary">Primary</button>
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+            </div> -->
+            <div class="form-group">
+                <label for="creditCardNo">Credit Card Number </label>
+                <input type="number" class="form-control" id="creditCardNo" name="creditCardNo">
+            </div>
+            <div class="form-group">
+                <label for="expirationMonth">Expiration Month </label>
+                <input type="text" class="form-control" id="expirationMonth" name="expirationMonth">
+            </div>
+            <div class="form-group">
+                <label for="expirationYear">Expiration Year </label>
+                <input type="number" class="form-control" id="expirationYear" name="expirationYear">
+            </div>
+            <div class="form-group">
+                <label for="securityCode">Security Code </label>
+                <input type="number" class="form-control" id="securityCode" name="securityCode">
+            </div>
+            <button type="button" class="btn btn-primary"> Make a payment </button>
+        </form>
+    </div>
+    <hr>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
         </div>
-        <!-- Introduction -->
-        <div>
-            <h1> Introduction</h1>
-            <button type="button" onclick="showAlert()">Home</button>
-            <label for="lname">Last Name: </label>
-            <input type="text" id="lname" name="lname" name="lname"><br><br>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" name="fname"><br><br>
-            <button id="submitButton" type="button" onclick="saveData()">Submitt</button>
-            <!-- <button type="button" onclick="saveData()"> Save </button> -->
-            <p> My name is Sandeep Thapa and I am a student right now.</p>
-            <p> I did my <b> Master </b> from Australia</p>
-            <p> I shall finish my master in Technology 
-                (Software Engineering) from Federation University in August, 2024. </p>
-                <p> I have taken following courses</p>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
-        <!-- Resume -->
-        <div>
-            <h1> Resume</h1>
-            <h3> Skills </h3>
-            <ul>
-                <li> HTML </li>
-                <li> CSS </li>
-                <li> Git </li>
-                <li> GitHub </li>
-            </ul>
-            <h3> Masters Courses </h3>
-            <p> I have taken these courses in my Master Degree. </p>            
-            <ul>
-                <li> Big Data Analysis </li>
-                <li> Comparative Programming </li>
-                <li> Enterprise System </li>
-                <li> Foundation of Programming </li>
-                <li> IT Service Management </li>
-                <li> Leadership in Project Management </li>
-                <li> Network and Security </li>
-                <li> Professional Research and Communication </li>
-                <li> Software Engineering Analysis and Design </li>
-                <li> Software Engineering Methodology </li>
-                <li> Software Testing </li>
-                <li> Understanding the Digital Revolution </li>
-            </ul>
-            <ol>
-                <li> Big Data Analysis </li>
-                <li> Comparative Programming </li>
-                <li> Enterprise System </li>
-                <li> Foundation of Programming </li>
-                <li> IT Service Management </li>
-                <li> Leadership in Project Management </li>
-                <li> Network and Security </li>
-                <li> Professional Research and Communication </li>
-                <li> Software Engineering Analysis and Design </li>
-                <li> Software Engineering Methodology </li>
-                <li> Software Testing </li>
-                <li> Understanding the Digital Revolution </li>
-            </ol>
-            <!-- <script type="text/javascript">
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+    <!-- Introduction -->
+    <div>
+        <h1> Introduction</h1>
+        <button type="button" onclick="showAlert()">Home</button><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname" name="lname"><br><br>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" name="fname"><br><br>
+        <button id="submitButton" type="button" onclick="saveData()">Submitt</button>
+        <!-- <button type="button" onclick="saveData()"> Save </button> -->
+        <p> My name is Sandeep Thapa and I am a student right now.</p>
+        <p> I did my <b> Master </b> from Australia</p>
+        <p> I shall finish my master in Technology
+            (Software Engineering) from Federation University in August, 2024. </p>
+        <p> I have taken following courses</p>
+    </div>
+    <!-- Resume -->
+    <div>
+        <h1> Resume</h1>
+        <h3> Skills </h3>
+        <ul>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> Git </li>
+            <li> GitHub </li>
+        </ul>
+        <h3> Masters Courses </h3>
+        <p> I have taken these courses in my Master Degree. </p>
+        <ul>
+            <li> Big Data Analysis </li>
+            <li> Comparative Programming </li>
+            <li> Enterprise System </li>
+            <li> Foundation of Programming </li>
+            <li> IT Service Management </li>
+            <li> Leadership in Project Management </li>
+            <li> Network and Security </li>
+            <li> Professional Research and Communication </li>
+            <li> Software Engineering Analysis and Design </li>
+            <li> Software Engineering Methodology </li>
+            <li> Software Testing </li>
+            <li> Understanding the Digital Revolution </li>
+        </ul>
+        <ol>
+            <li> Big Data Analysis </li>
+            <li> Comparative Programming </li>
+            <li> Enterprise System </li>
+            <li> Foundation of Programming </li>
+            <li> IT Service Management </li>
+            <li> Leadership in Project Management </li>
+            <li> Network and Security </li>
+            <li> Professional Research and Communication </li>
+            <li> Software Engineering Analysis and Design </li>
+            <li> Software Engineering Methodology </li>
+            <li> Software Testing </li>
+            <li> Understanding the Digital Revolution </li>
+        </ol>
+        <!-- <script type="text/javascript">
                 alert("This alert box was called with the onload event Sandeep Thapa");
             </script> -->
-            <!-- <table>
+        <!-- <table>
                   <tr> 
                     <td> Big Data Analysis </td>
                     <td> Comparative Programming </td>
@@ -119,18 +136,19 @@
                     <td> Understanding the Digital Revolution </td>
                 </tr> 
             </table> -->
-            <h3> Professional Experience </h3>
-            <ul>
-                <li> Software Quality Engineer </li>
-                <li> Cook </li>
-            </ul>
-        </div>
-        <!-- Contact Details -->
-        <!-- DRY Don't repeat yourself -->
-        <div>
-            <h1> Contact Details </h1>
-            <p> Contact Number : <a href="tel: +61-420-249-395"> +61 420 249 395 </a> </p>
-            <p> Email :  <a href="mailto: thapa.sandeepth@gmail.com">  thapa.sandeepth@gmail.com </a></p>
-        </div>
-    </body>
+        <h3> Professional Experience </h3>
+        <ul>
+            <li> Software Quality Engineer </li>
+            <li> Cook </li>
+        </ul>
+    </div>
+    <!-- Contact Details -->
+    <!-- DRY Don't repeat yourself -->
+    <div>
+        <h1> Contact Details </h1>
+        <p> Contact Number : <a href="tel: +61-420-249-395"> +61 420 249 395 </a> </p>
+        <p> Email : <a href="mailto: thapa.sandeepth@gmail.com"> thapa.sandeepth@gmail.com </a></p>
+    </div>
+</body>
+
 </html>

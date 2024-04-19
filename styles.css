@@ -18,3 +18,14 @@
     background-color: blue;
     color: white;
 }
+.credit-form-group {
+    color:red;
+}
+
+/* input {
+    width:100%;
+} */
+form {
+    margin-left: 10px;
+    margin-right: 10px;
+}

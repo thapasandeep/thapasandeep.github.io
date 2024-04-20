@@ -35,3 +35,19 @@ function updateValue(e) {
 //   log.textContent = e.target.value;
     console.log("roger");
 }
+ 
+function expirationMonth() {
+    var month = document.getElementById("expirationMonth").value;
+    console.log("monthChanged");
+}
+
+function show_month(obj) {
+    console.log("monthChanged");
+    // document.getElementById('expirationMonth').selectedIndex = obj.selectedIndex;
+    var month = document.getElementById("expirationMonth").value;
+    console.log(month);
+}
+
+function makePayment() {
+    console.log("payment")
+}

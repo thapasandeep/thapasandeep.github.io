@@ -1,5 +1,5 @@
 #sandeep {
-    color:black ;
+    color: black;
 }
 
 #red-text {
@@ -8,9 +8,10 @@
 
 .blue-text-class {
     color: blue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- td {
+
+td {
     border: 1px solid black;
 }
 
@@ -18,8 +19,9 @@
     background-color: blue;
     color: white;
 }
+
 .credit-form-group {
-    color:red;
+    color: red;
 }
 
 /* input {
@@ -28,4 +30,14 @@
 form {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+#hover-to-red {
+    a:hover {
+        background-color: green;
+    }
 }
